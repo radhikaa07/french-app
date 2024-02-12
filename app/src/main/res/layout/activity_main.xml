@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="french teacher app"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <Button
+        android:id="@+id/blackbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="black"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="218dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/greenbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="green"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/purplebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="purple"
+        android:textColor="@color/black"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <Button
+        android:id="@+id/redbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="red"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/purplebtn"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="174dp" />
+
+    <Button
+        android:id="@+id/yellowbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="red"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="@+id/purplebtn"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="174dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
